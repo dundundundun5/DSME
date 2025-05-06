@@ -1,6 +1,9 @@
 # DSME
 DSME implementation
 
+Generalizing Sensor-Based Human Activity Recognition With Domain-Specific Ensemble Learning
+
+DOI: 10.1109/JSEN.2025.3549881
 2025.05.06 
 
 1. torchmetrics - install through pip
@@ -18,7 +21,7 @@ train_test_moe_with_torchmetrics()
 Code explanation: __Coming Soon__
 
 
-## to preprocess data
+## To preprocess data
 
 1. Create folder "har_data/"
 2. Visit whichever dataset repo and download *.zip or *.rar or xxx and move to "har_data/" and unzip or unrar or xxx
@@ -29,7 +32,7 @@ Code explanation: __Coming Soon__
        3. e.g. PAMAP2/Protocol/
     2. DSME
 4. get to xxx/DSME/ and "bash ./scripts/preprocess.sh"
-## to run
+## To run
 1. get to xxx/DSME/
    * python main.py with args
    * python cmd_generotor.py to get python commands
